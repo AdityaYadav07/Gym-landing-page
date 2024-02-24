@@ -1,0 +1,97 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("bg\ logo.jpg");
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red;  */
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+
+.left img {
+    width: 136px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 150%;
+
+}
+
+
+.mid {
+    /* border: 2px solid green;  */
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    display: absolute;
+    left: 10px;
+    top: 0px;
+
+
+}
+
+.right {
+    display: inline-block;
+    /* border: 20px solid yellow;    */
+    position: absolute;
+    right: 30px;
+    top: 45px;
+    border-radius: 20%;
+
+
+}
+
+.navbar {
+
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: blueviolet;
+
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-left:  60%;
+    margin-right: 15%;
+    margin-top: 8%;
+    width: auto;
+    
+}
+.container form {
+    margin-left: 18px;
+    text-align: center;
+    margin: 5%;
+    display: block;
+    border: 2px solod black;
+
+}
+.container h1{
+    padding: 10px;
+}
+
